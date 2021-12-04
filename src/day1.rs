@@ -1,5 +1,5 @@
 #[aoc_generator(day1)]
-pub fn input_generator(input: &str) -> Vec<usize> {
+pub fn generator(input: &str) -> Vec<usize> {
     input
         .lines()
         .map(|l| l.parse().unwrap())
